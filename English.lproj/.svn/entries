@@ -1,0 +1,53 @@
+8
+
+dir
+8
+svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/LicenseExample/English.lproj
+svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/LicenseExample
+
+
+
+2009-06-15T12:52:41.272300Z
+3
+alex
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+001dd56a-3259-4a6c-a61e-beced0eafb8b
+
+InfoPlist.strings
+file
+
+
+
+
+2009-06-20T09:10:03.000000Z
+51ef59b60e5b41b91519cc662a9fe886
+2009-06-14T13:16:14.976173Z
+1
+alex
+has-props
+
+MainMenu.xib
+file
+
+
+
+
+2009-06-20T09:10:03.000000Z
+bcd108251290b98a750120e2621dde87
+2009-06-15T12:52:41.272300Z
+3
+alex
+

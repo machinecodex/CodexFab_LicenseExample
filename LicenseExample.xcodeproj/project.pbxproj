@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA2443B90FF73699009C337B /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA2443B80FF73699009C337B /* ReadMe.txt */; };
+		FAA0031A0FE8DAF400F179E4 /* CFobLicGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */; };
+		FAA0031B0FE8DAF400F179E4 /* CFobLicVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003040FE8DAF400F179E4 /* CFobLicVerifier.m */; };
+		FAA0031E0FE8DAF400F179E4 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = FAA0030B0FE8DAF400F179E4 /* decoder.c */; };
+		FAA0031F0FE8DAF400F179E4 /* encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = FAA0030D0FE8DAF400F179E4 /* encoder.c */; };
+		FAA003220FE8DAF400F179E4 /* NSData+PECrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003120FE8DAF400F179E4 /* NSData+PECrypt.m */; };
+		FAA003230FE8DAF400F179E4 /* NSString+PECrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003140FE8DAF400F179E4 /* NSString+PECrypt.m */; };
+		FAA003240FE8DAF400F179E4 /* NSString-Base64Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003160FE8DAF400F179E4 /* NSString-Base64Extensions.m */; };
+		FAA003260FE8DAF400F179E4 /* URLCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003190FE8DAF400F179E4 /* URLCommand.m */; };
+		FAA0051D0FE8DD6500F179E4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA0051C0FE8DD6500F179E4 /* README.txt */; };
+		FAA0FBF60FE5193600F179E4 /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */; };
+		FAA0FC1B0FE5194A00F179E4 /* XMLicensingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FC060FE5194900F179E4 /* XMLicensingWindowController.m */; };
+		FAA0FC320FE5197000F179E4 /* MSZLinkedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FC310FE5197000F179E4 /* MSZLinkedView.m */; };
+		FAA0FC430FE51AF700F179E4 /* libcrypto.0.9.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0FC420FE51AF700F179E4 /* libcrypto.0.9.7.dylib */; };
+		FAA0FC500FE51B6B00F179E4 /* Licensing.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FC4F0FE51B6B00F179E4 /* Licensing.xib */; };
+		FAA0FC560FE51BC500F179E4 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0FC550FE51BC500F179E4 /* Quartz.framework */; };
+		FAA0FCC00FE51D4B00F179E4 /* DSA Keys in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCBA0FE51D4B00F179E4 /* DSA Keys */; };
+		FAA0FCC70FE5217200F179E4 /* MyApp.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCC50FE5217200F179E4 /* MyApp.scriptSuite */; };
+		FAA0FCC80FE5217200F179E4 /* MyApp.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCC60FE5217200F179E4 /* MyApp.scriptTerminology */; };
+		FAA0FE700FE672D400F179E4 /* CodexFabExample.icns in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FE6F0FE672D400F179E4 /* CodexFabExample.icns */; };
+		FAA0FEE50FE673E500F179E4 /* CodeFabExample_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FEE40FE673E500F179E4 /* CodeFabExample_splash.png */; };
+		FAE292140FEB47A900C6FDEA /* XMAppDelegate+Licensing.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE292130FEB47A900C6FDEA /* XMAppDelegate+Licensing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* LicenseExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseExample_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* LicenseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2443B80FF73699009C337B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		FAA003010FE8DAF400F179E4 /* CFobLicGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicGenerator.h; sourceTree = "<group>"; };
+		FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFobLicGenerator.m; sourceTree = "<group>"; };
+		FAA003030FE8DAF400F179E4 /* CFobLicVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicVerifier.h; sourceTree = "<group>"; };
+		FAA003040FE8DAF400F179E4 /* CFobLicVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFobLicVerifier.m; sourceTree = "<group>"; };
+		FAA0030B0FE8DAF400F179E4 /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decoder.c; sourceTree = "<group>"; };
+		FAA0030C0FE8DAF400F179E4 /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
+		FAA0030D0FE8DAF400F179E4 /* encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoder.c; sourceTree = "<group>"; };
+		FAA0030E0FE8DAF400F179E4 /* encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder.h; sourceTree = "<group>"; };
+		FAA003110FE8DAF400F179E4 /* NSData+PECrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PECrypt.h"; sourceTree = "<group>"; };
+		FAA003120FE8DAF400F179E4 /* NSData+PECrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PECrypt.m"; sourceTree = "<group>"; };
+		FAA003130FE8DAF400F179E4 /* NSString+PECrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PECrypt.h"; sourceTree = "<group>"; };
+		FAA003140FE8DAF400F179E4 /* NSString+PECrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PECrypt.m"; sourceTree = "<group>"; };
+		FAA003150FE8DAF400F179E4 /* NSString-Base64Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-Base64Extensions.h"; sourceTree = "<group>"; };
+		FAA003160FE8DAF400F179E4 /* NSString-Base64Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-Base64Extensions.m"; sourceTree = "<group>"; };
+		FAA003180FE8DAF400F179E4 /* URLCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCommand.h; sourceTree = "<group>"; };
+		FAA003190FE8DAF400F179E4 /* URLCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCommand.m; sourceTree = "<group>"; };
+		FAA0051C0FE8DD6500F179E4 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../CodexFab/CocoaFob/README.txt; sourceTree = SOURCE_ROOT; };
+		FAA0FBF40FE5193600F179E4 /* XMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMAppDelegate.h; sourceTree = "<group>"; };
+		FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMAppDelegate.m; sourceTree = "<group>"; };
+		FAA0FC050FE5194900F179E4 /* XMLicensingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLicensingWindowController.h; sourceTree = "<group>"; };
+		FAA0FC060FE5194900F179E4 /* XMLicensingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLicensingWindowController.m; sourceTree = "<group>"; };
+		FAA0FC300FE5197000F179E4 /* MSZLinkedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSZLinkedView.h; sourceTree = "<group>"; };
+		FAA0FC310FE5197000F179E4 /* MSZLinkedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSZLinkedView.m; sourceTree = "<group>"; };
+		FAA0FC330FE5199000F179E4 /* XMArgumentKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMArgumentKeys.h; sourceTree = "<group>"; };
+		FAA0FC420FE51AF700F179E4 /* libcrypto.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.7.dylib; path = /usr/lib/libcrypto.0.9.7.dylib; sourceTree = "<absolute>"; };
+		FAA0FC4F0FE51B6B00F179E4 /* Licensing.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Licensing.xib; sourceTree = "<group>"; };
+		FAA0FC550FE51BC500F179E4 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		FAA0FCBA0FE51D4B00F179E4 /* DSA Keys */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "DSA Keys"; sourceTree = "<group>"; };
+		FAA0FCC50FE5217200F179E4 /* MyApp.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.scriptSuite; path = MyApp.scriptSuite; sourceTree = "<group>"; };
+		FAA0FCC60FE5217200F179E4 /* MyApp.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.scriptTerminology; path = MyApp.scriptTerminology; sourceTree = "<group>"; };
+		FAA0FE6F0FE672D400F179E4 /* CodexFabExample.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CodexFabExample.icns; sourceTree = "<group>"; };
+		FAA0FEE40FE673E500F179E4 /* CodeFabExample_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeFabExample_splash.png; sourceTree = "<group>"; };
+		FAE292130FEB47A900C6FDEA /* XMAppDelegate+Licensing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMAppDelegate+Licensing.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FAA0FC430FE51AF700F179E4 /* libcrypto.0.9.7.dylib in Frameworks */,
+				FAA0FC560FE51BC500F179E4 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FBF40FE5193600F179E4 /* XMAppDelegate.h */,
+				FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */,
+				FAA0FBFF0FE5194900F179E4 /* XMLicensing */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FC550FE51BC500F179E4 /* Quartz.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* LicenseExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* LicenseExample */ = {
+			isa = PBXGroup;
+			children = (
+				FA2443B80FF73699009C337B /* ReadMe.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = LicenseExample;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LicenseExample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FE6F0FE672D400F179E4 /* CodexFabExample.icns */,
+				FAA0FEE40FE673E500F179E4 /* CodeFabExample_splash.png */,
+				FAA0FCC50FE5217200F179E4 /* MyApp.scriptSuite */,
+				FAA0FCC60FE5217200F179E4 /* MyApp.scriptTerminology */,
+				FAA0FC4F0FE51B6B00F179E4 /* Licensing.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FC410FE51AF600F179E4 /* External Frameworks */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA003000FE8DAF400F179E4 /* CocoaFob */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0051C0FE8DD6500F179E4 /* README.txt */,
+				FAA003010FE8DAF400F179E4 /* CFobLicGenerator.h */,
+				FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */,
+				FAA003030FE8DAF400F179E4 /* CFobLicVerifier.h */,
+				FAA003040FE8DAF400F179E4 /* CFobLicVerifier.m */,
+				FAA0030B0FE8DAF400F179E4 /* decoder.c */,
+				FAA0030C0FE8DAF400F179E4 /* decoder.h */,
+				FAA0030D0FE8DAF400F179E4 /* encoder.c */,
+				FAA0030E0FE8DAF400F179E4 /* encoder.h */,
+				FAA003110FE8DAF400F179E4 /* NSData+PECrypt.h */,
+				FAA003120FE8DAF400F179E4 /* NSData+PECrypt.m */,
+				FAA003130FE8DAF400F179E4 /* NSString+PECrypt.h */,
+				FAA003140FE8DAF400F179E4 /* NSString+PECrypt.m */,
+				FAA003150FE8DAF400F179E4 /* NSString-Base64Extensions.h */,
+				FAA003160FE8DAF400F179E4 /* NSString-Base64Extensions.m */,
+				FAA003180FE8DAF400F179E4 /* URLCommand.h */,
+				FAA003190FE8DAF400F179E4 /* URLCommand.m */,
+			);
+			name = CocoaFob;
+			path = ../CodexFab/CocoaFob/objc;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAA0FBFF0FE5194900F179E4 /* XMLicensing */ = {
+			isa = PBXGroup;
+			children = (
+				FAE292130FEB47A900C6FDEA /* XMAppDelegate+Licensing.m */,
+				FAA0FC050FE5194900F179E4 /* XMLicensingWindowController.h */,
+				FAA0FC060FE5194900F179E4 /* XMLicensingWindowController.m */,
+				FAA0FC330FE5199000F179E4 /* XMArgumentKeys.h */,
+				FAA0FCBA0FE51D4B00F179E4 /* DSA Keys */,
+				FAA003000FE8DAF400F179E4 /* CocoaFob */,
+				FAA0FE510FE6268500F179E4 /* MSZLinkedView */,
+			);
+			name = XMLicensing;
+			sourceTree = "<group>";
+		};
+		FAA0FC410FE51AF600F179E4 /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FC420FE51AF700F179E4 /* libcrypto.0.9.7.dylib */,
+			);
+			name = "External Frameworks";
+			sourceTree = "<group>";
+		};
+		FAA0FE510FE6268500F179E4 /* MSZLinkedView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0FC300FE5197000F179E4 /* MSZLinkedView.h */,
+				FAA0FC310FE5197000F179E4 /* MSZLinkedView.m */,
+			);
+			name = MSZLinkedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* LicenseExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LicenseExample" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicenseExample;
+			productInstallPath = "$(HOME)/Applications";
+			productName = LicenseExample;
+			productReference = 8D1107320486CEB800E47090 /* LicenseExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LicenseExample" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* LicenseExample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* LicenseExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FAA0FC500FE51B6B00F179E4 /* Licensing.xib in Resources */,
+				FAA0FCC00FE51D4B00F179E4 /* DSA Keys in Resources */,
+				FAA0FCC70FE5217200F179E4 /* MyApp.scriptSuite in Resources */,
+				FAA0FCC80FE5217200F179E4 /* MyApp.scriptTerminology in Resources */,
+				FAA0FE700FE672D400F179E4 /* CodexFabExample.icns in Resources */,
+				FAA0FEE50FE673E500F179E4 /* CodeFabExample_splash.png in Resources */,
+				FAA0051D0FE8DD6500F179E4 /* README.txt in Resources */,
+				FA2443B90FF73699009C337B /* ReadMe.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				FAA0FBF60FE5193600F179E4 /* XMAppDelegate.m in Sources */,
+				FAA0FC1B0FE5194A00F179E4 /* XMLicensingWindowController.m in Sources */,
+				FAA0FC320FE5197000F179E4 /* MSZLinkedView.m in Sources */,
+				FAA0031A0FE8DAF400F179E4 /* CFobLicGenerator.m in Sources */,
+				FAA0031B0FE8DAF400F179E4 /* CFobLicVerifier.m in Sources */,
+				FAA0031E0FE8DAF400F179E4 /* decoder.c in Sources */,
+				FAA0031F0FE8DAF400F179E4 /* encoder.c in Sources */,
+				FAA003220FE8DAF400F179E4 /* NSData+PECrypt.m in Sources */,
+				FAA003230FE8DAF400F179E4 /* NSString+PECrypt.m in Sources */,
+				FAA003240FE8DAF400F179E4 /* NSString-Base64Extensions.m in Sources */,
+				FAA003260FE8DAF400F179E4 /* URLCommand.m in Sources */,
+				FAE292140FEB47A900C6FDEA /* XMAppDelegate+Licensing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LicenseExample_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = LicenseExample;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LicenseExample_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = LicenseExample;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LicenseExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LicenseExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
