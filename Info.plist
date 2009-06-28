@@ -18,6 +18,8 @@
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -30,8 +32,6 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>NSAppleScriptEnabled</key>
-	<string>YES</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

@@ -36,6 +36,8 @@ To intgrate CodexFab into your Cocoa app, you will need to follow a these steps.
 
 6. Support one-click registration from your Potion Store. Edit your app's Info.plist file to add a CFBundleURLTypes array, substituting your own CFBundleURLScheme to match the one you have set up for your app on Potion Store, as below:
 
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
