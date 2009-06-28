@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>425D52B8-E6CB-49E6-894D-1CFC1B633213</UUID>
+        <nextObjectID>103</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>186</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>XMPEM</key>
+                        <data>
+		OP7QaDC1MbHj1UhOJtTEaWBkcKR2brWDgi9igXCNwWs=
+		</data>
+                        <key>XMProduct</key>
+                        <data>
+		lZ6eC6QTkhQI2+cnsU8rF7CpF9zDrdD7VsEUs7puHcc=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="XMPEM" id="z102">
+        <attribute name="publickey" type="string">-----BEGIN PUBLIC KEY-----
+MIHxMIGoBgcqhkjOOAQBMIGcAkEAlkHhqwIttlbDZEK6mOY7s7EBjI/GFhhT/F7m
+4eA4vVefuIsdTmA5gBplebQ02k8JMPWaP0mV8hCDzcdIHMqrSwIVAPdSrKvB8U59
++7I0X0wfm74v0WTzAkBwKLW3thX3IOPo4vjghDX/nHtJG3VXSmCTC7mFpv2nhXuz
+blSbboRAlMa/j0kl4vURsuVXlgvvWpCpgA0SSf0TA0QAAkEAh5RNl7/OdeCseUUY
+hnWI5rVfc7g8ZjVydDTnznSaOXBFelXJJFERjEK71bA3bzgbUHnS5P4KYBhzJO5G
++wwciQ==
+-----END PUBLIC KEY-----</attribute>
+        <attribute name="privatekey" type="string">-----BEGIN DSA PRIVATE KEY-----
+MIH4AgEAAkEAlkHhqwIttlbDZEK6mOY7s7EBjI/GFhhT/F7m4eA4vVefuIsdTmA5
+gBplebQ02k8JMPWaP0mV8hCDzcdIHMqrSwIVAPdSrKvB8U59+7I0X0wfm74v0WTz
+AkBwKLW3thX3IOPo4vjghDX/nHtJG3VXSmCTC7mFpv2nhXuzblSbboRAlMa/j0kl
+4vURsuVXlgvvWpCpgA0SSf0TAkEAh5RNl7/OdeCseUUYhnWI5rVfc7g8ZjVydDTn
+znSaOXBFelXJJFERjEK71bA3bzgbUHnS5P4KYBhzJO5G+wwciQIUZ6EIi1UPfBtF
+2M1HMrtFkdh16GI=
+-----END DSA PRIVATE KEY-----
+</attribute>
+        <attribute name="parameters" type="string">-----BEGIN DSA PARAMETERS-----
+MIGcAkEAlkHhqwIttlbDZEK6mOY7s7EBjI/GFhhT/F7m4eA4vVefuIsdTmA5gBpl
+ebQ02k8JMPWaP0mV8hCDzcdIHMqrSwIVAPdSrKvB8U59+7I0X0wfm74v0WTzAkBw
+KLW3thX3IOPo4vjghDX/nHtJG3VXSmCTC7mFpv2nhXuzblSbboRAlMa/j0kl4vUR
+suVXlgvvWpCpgA0SSf0T
+-----END DSA PARAMETERS-----</attribute>
+        <relationship name="product" type="1/1" destination="XMPRODUCT" idrefs="z103"></relationship>
+    </object>
+    <object type="XMPRODUCT" id="z103">
+        <attribute name="productcode" type="string">EXAMP1X</attribute>
+        <attribute name="name" type="string">LicenseExample</attribute>
+        <attribute name="licenseurlscheme" type="string">com.mycompany.example.lic</attribute>
+        <relationship name="pem" type="1/1" destination="XMPEM" idrefs="z102"></relationship>
+    </object>
+</database>
