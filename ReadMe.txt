@@ -8,7 +8,7 @@ CodexFab aims to make it simple for you to add automatic Potion Store licensing 
 
 This LicenseExample project demonstrates the code necessary to validate a CocoaFob license code string against an app's private key. It also demonstrates the implementation of one click licensing from a custom URL scheme. All this is wrapped in a customisable, animating Licensing window.
 
-CodexFab is based on CocoaFob, an open source project by Gleb Dolgich that implements secure assymetric DSA key generation and validation in Cocoa and Ruby. CodexFab simply adds a few classes necessary to support CocoaFob in your app.
+CodexFab is based on CocoaFob, an open source project by Gleb Dolgich that implements secure assymetric DSA key generation and validation in Cocoa and Ruby. CodexFab simply adds a few classes necessary to support CocoaFob in your app. 
 
 CocoaFob and CodexFab are both designed to work with the Potion Store.
 <http://github.com/potionfactory/potionstore/tree/master>
@@ -20,13 +20,15 @@ This example application implements a complete solution to licensing a Cocoa app
 
 To intgrate CodexFab into your Cocoa app, you will need to follow a these steps.
 
+1. Go and grab the latest build of CocoaFob from <http://github.com/gbd/cocoafob/tree/master>.
+
 1. Add the XMLicensing group classes to your app's source and copy it to your Xcode project. (You can do this via drag and drop between Xcode windows.) 
 
 2. Add the code in XMAppDelegate to your app's principal class. Your app delegate or document class needs to register for the XMDidChangeRegistrationNotification and perform a launch check.
 
 3. Make XMAppDelegate+Licensing.m into a category on your app's principal class. This class provides the methods which respond to the XMDidChangeRegistrationNotification, open the licensing window, and verify the license against your public key. By putting it in a category, we can keep these methods logically separate but still globally accessible.
 
-2. Generate DSA keys for your application. This can be easily done using the included CodexFab application, or by following the manual key generation method outlined in the CocoaFob ReadMe. These keys can be stored anywhere, but it can be handy to keep them in the project folder as we have done here.
+2. Generate DSA keys for your application. This can be easily done using the companion CodexFab application, or by following the manual key generation method outlined in the CocoaFob ReadMe. These keys can be stored anywhere, but it can be handy to keep them in the project folder as we have done here.
 
 3. Include an obfuscated version of your public key in the source code of your app. Edit the - (void) verifyLicense method in  XMAppDelegate+Licensing.m, which uses the AquaticPrime-inspired technique of splitting the public key string into random length sections. Other possibilities here might involve splitting this string across multiple classes.
 
