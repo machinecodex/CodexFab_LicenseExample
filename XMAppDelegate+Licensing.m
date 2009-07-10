@@ -63,21 +63,27 @@
 	// Do not use this actual key in your app: it was generated specifically for LicenseExample.app.
 	// Don't insert the header or footer text, just the key itself. 
 	// Add a "\n" token to represent each pubkey.pem newline.
-	NSMutableString *pubKeyBase64 = [NSMutableString string];
-	[pubKeyBase64 appendString:@"MIHxMIGoBgcqhkjOOAQBMIGcAkEAlkH"];
-	[pubKeyBase64 appendString:@"hqwIttlbDZEK6mOY7s7EBjI/GFhhT/F7m\n"];
-	[pubKeyBase64 appendString:@"4eA4vVefuIsdTmA5gBplebQ02"];
-	[pubKeyBase64 appendString:@"k8JMPWaP0mV8hCDzcdIHMqrSwIVAPdSrKvB8U59\n"];
-	[pubKeyBase64 appendString:@"+7I0X0wfm74v0WTzAkBwKLW3thX3IO"];
-	[pubKeyBase64 appendString:@"Po4vjghDX/nHtJG3VXSmCTC7mFpv2nhXuz\n"];
-	[pubKeyBase64 appendString:@"blSbboRAlMa/j0kl4vURsuVXlg"];
-	[pubKeyBase64 appendString:@"vvWpCpgA0SSf0TA0QAAkEAh5RNl7/OdeCse"];
-	[pubKeyBase64 appendString:@"UUY\n"];
-	[pubKeyBase64 appendString:@"hnWI5rVfc7g8ZjVydDTnznSaOXB"];
-	[pubKeyBase64 appendString:@"FelXJJFERjEK71bA3bzgbUHnS5P4KYBhzJO5G\n"];
-	[pubKeyBase64 appendString:@"+wwciQ==\n"];
-		
-	NSString *publicKey = [CFobLicVerifier completePublicKeyPEM:pubKeyBase64];
+	NSMutableString *pkb64 = [NSMutableString string];
+	[pkb64 appendString:@"MIHxMIGoBgcqhkjOOAQBM"];
+	[pkb64 appendString:@"IGcAkEAlkHhqwIttlb"];
+	[pkb64 appendString:@"DZEK6mOY7"];
+	[pkb64 appendString:@"s7EBjI/GFh"];
+	[pkb64 appendString:@"hT/F7m\n4eA4vVefuIsdTm"];
+	[pkb64 appendString:@"A5gBplebQ"];
+	[pkb64 appendString:@"02k8JMPW"];
+	[pkb64 appendString:@"aP0mV8hCDzcdIHMqrS"];
+	[pkb64 appendString:@"wIVAPdSrKvB8U59\n+7I0"];
+	[pkb64 appendString:@"X0wfm74v0WTzAkBwKLW3thX3IOPo4vjghDX/nHtJG3V"];
+	[pkb64 appendString:@"XSmCTC7mFpv2nhXuz\nblSbboRAlMa/j0kl4vURs"];
+	[pkb64 appendString:@"uVXl"];
+	[pkb64 appendString:@"gvvWpCpgA0SSf0TA0QAAkEAh5RNl7/OdeCseUUY\nhn"];
+	[pkb64 appendString:@"WI5rVfc7g8ZjVydDTnznSaOXBFelXJJFERjE"];
+	[pkb64 appendString:@"K71bA3b"];
+	[pkb64 appendString:@"zgbUHnS"];
+	[pkb64 appendString:@"5P4KYBhzJO5G\n+wwciQ==\n"];
+	NSString *publicKey = [NSString stringWithString:pkb64];
+	
+	publicKey = [CFobLicVerifier completePublicKeyPEM:publicKey];
 
 	CFobLicVerifier * verifier = [CFobLicVerifier verifierWithPublicKey:publicKey];
 

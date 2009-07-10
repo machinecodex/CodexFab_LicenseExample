@@ -11,6 +11,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA2443B90FF73699009C337B /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA2443B80FF73699009C337B /* ReadMe.txt */; };
 		FAA0031A0FE8DAF400F179E4 /* CFobLicGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */; };
 		FAA0031B0FE8DAF400F179E4 /* CFobLicVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003040FE8DAF400F179E4 /* CFobLicVerifier.m */; };
 		FAA0031E0FE8DAF400F179E4 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = FAA0030B0FE8DAF400F179E4 /* decoder.c */; };
@@ -27,7 +28,6 @@
 		FAA0FC500FE51B6B00F179E4 /* Licensing.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FC4F0FE51B6B00F179E4 /* Licensing.xib */; };
 		FAA0FC560FE51BC500F179E4 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0FC550FE51BC500F179E4 /* Quartz.framework */; };
 		FAA0FCC00FE51D4B00F179E4 /* DSA Keys in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCBA0FE51D4B00F179E4 /* DSA Keys */; };
-		FAA0FCC40FE51DC300F179E4 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCC30FE51DC300F179E4 /* ReadMe.rtf */; };
 		FAA0FCC70FE5217200F179E4 /* MyApp.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCC50FE5217200F179E4 /* MyApp.scriptSuite */; };
 		FAA0FCC80FE5217200F179E4 /* MyApp.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FCC60FE5217200F179E4 /* MyApp.scriptTerminology */; };
 		FAA0FE700FE672D400F179E4 /* CodexFabExample.icns in Resources */ = {isa = PBXBuildFile; fileRef = FAA0FE6F0FE672D400F179E4 /* CodexFabExample.icns */; };
@@ -46,6 +46,7 @@
 		32CA4F630368D1EE00C91783 /* LicenseExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseExample_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* LicenseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2443B80FF73699009C337B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		FAA003010FE8DAF400F179E4 /* CFobLicGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicGenerator.h; sourceTree = "<group>"; };
 		FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFobLicGenerator.m; sourceTree = "<group>"; };
 		FAA003030FE8DAF400F179E4 /* CFobLicVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicVerifier.h; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		FAA0FC4F0FE51B6B00F179E4 /* Licensing.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Licensing.xib; sourceTree = "<group>"; };
 		FAA0FC550FE51BC500F179E4 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		FAA0FCBA0FE51D4B00F179E4 /* DSA Keys */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "DSA Keys"; sourceTree = "<group>"; };
-		FAA0FCC30FE51DC300F179E4 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		FAA0FCC50FE5217200F179E4 /* MyApp.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.scriptSuite; path = MyApp.scriptSuite; sourceTree = "<group>"; };
 		FAA0FCC60FE5217200F179E4 /* MyApp.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.scriptTerminology; path = MyApp.scriptTerminology; sourceTree = "<group>"; };
 		FAA0FE6F0FE672D400F179E4 /* CodexFabExample.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CodexFabExample.icns; sourceTree = "<group>"; };
@@ -99,7 +99,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FAA0FCC30FE51DC300F179E4 /* ReadMe.rtf */,
 				FAA0FBF40FE5193600F179E4 /* XMAppDelegate.h */,
 				FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */,
 				FAA0FBFF0FE5194900F179E4 /* XMLicensing */,
@@ -137,6 +136,7 @@
 		29B97314FDCFA39411CA2CEA /* LicenseExample */ = {
 			isa = PBXGroup;
 			children = (
+				FA2443B80FF73699009C337B /* ReadMe.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -283,12 +283,12 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				FAA0FC500FE51B6B00F179E4 /* Licensing.xib in Resources */,
 				FAA0FCC00FE51D4B00F179E4 /* DSA Keys in Resources */,
-				FAA0FCC40FE51DC300F179E4 /* ReadMe.rtf in Resources */,
 				FAA0FCC70FE5217200F179E4 /* MyApp.scriptSuite in Resources */,
 				FAA0FCC80FE5217200F179E4 /* MyApp.scriptTerminology in Resources */,
 				FAA0FE700FE672D400F179E4 /* CodexFabExample.icns in Resources */,
 				FAA0FEE50FE673E500F179E4 /* CodeFabExample_splash.png in Resources */,
 				FAA0051D0FE8DD6500F179E4 /* README.txt in Resources */,
+				FA2443B90FF73699009C337B /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
