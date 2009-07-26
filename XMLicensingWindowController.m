@@ -113,6 +113,9 @@ static XMLicensingWindowController *_sharedLicensingWindowController = nil;
 
 - (IBAction) registerApp:(id)sender {
 	
+	BOOL requestEndEditing = [[self window] makeFirstResponder:[self window]]; // Request end editing
+	if (!requestEndEditing) [[self window] endEditingFor:nil];  // If request fails, force end editing
+	
 	// Broadcast notification of a changed registration information.
 	[[NSNotificationCenter defaultCenter] postNotificationName:XMDidChangeRegistrationNotification object:self];
 }

@@ -295,8 +295,6 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>FAA0FBFF0FE5194900F179E4</string>
-								<string>FAA0FCBA0FE51D4B00F179E4</string>
-								<string>FAA003000FE8DAF400F179E4</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -308,13 +306,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>42</integer>
-									<integer>37</integer>
+									<integer>8</integer>
+									<integer>5</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 615}, {363, 680}}</string>
+							<string>{{0, 0}, {363, 680}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -351,7 +350,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>XMAppDelegate+Licensing.m</string>
+								<string>XMLicensingWindowController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -359,11 +358,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>XMAppDelegate+Licensing.m</string>
+										<string>XMLicensingWindowController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA702476100772D700EAF5F5</string>
+										<string>FA34720C101913660020FDF4</string>
 										<key>history</key>
 										<array>
 											<string>FAA0FD860FE52AC200F179E4</string>
@@ -382,14 +381,14 @@
 											<string>FA9B80B80FFDEC0100611A30</string>
 											<string>FA9B80B90FFDEC0100611A30</string>
 											<string>FA9B80BA0FFDEC0100611A30</string>
-											<string>FA9B80BB0FFDEC0100611A30</string>
 											<string>FA9B80BF0FFDEC0100611A30</string>
 											<string>FA9B81290FFF5AF100611A30</string>
-											<string>FA9B812B0FFF5AF100611A30</string>
-											<string>FA9B812C0FFF5AF100611A30</string>
 											<string>FA702421100762CC00EAF5F5</string>
 											<string>FA70243910076BC500EAF5F5</string>
-											<string>FA70245E100770DF00EAF5F5</string>
+											<string>FA347203101913380020FDF4</string>
+											<string>FA347204101913380020FDF4</string>
+											<string>FA347205101913380020FDF4</string>
+											<string>FA9B812C0FFF5AF100611A30</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -416,6 +415,9 @@
 											<string>FA396AB30FF759E2004A4F82</string>
 											<string>FA9B80D00FFDEC0100611A30</string>
 											<string>FA70243C10076BC500EAF5F5</string>
+											<string>FA347206101913380020FDF4</string>
+											<string>FA347207101913380020FDF4</string>
+											<string>FA347208101913380020FDF4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -473,9 +475,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA7024531007706500EAF5F5</string>
+				<string>FA34720A101913380020FDF4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA7024541007706500EAF5F5</string>
+				<string>FA34720B101913380020FDF4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -594,7 +596,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>268923607.926184</real>
+	<real>270078757.16231501</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -609,9 +611,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>FAA0FCA20FE51BC800F179E4</string>
 		<string>/Users/alex/Desktop/XCode Projects/CodexFab/LicenseExample/LicenseExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
