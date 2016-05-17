@@ -368,10 +368,6 @@
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-					"-framework",
 					Security,
 				);
 				PRODUCT_NAME = LicenseExample;
@@ -393,10 +389,6 @@
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
 					"-framework",
 					Security,
 				);
