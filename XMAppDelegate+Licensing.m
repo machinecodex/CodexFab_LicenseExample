@@ -84,18 +84,34 @@
 	NSString *publicKey = [NSString stringWithString:pkb64];
 	
 	publicKey = [CFobLicVerifier completePublicKeyPEM:publicKey];
-
+#if (0)
 	CFobLicVerifier * verifier = [CFobLicVerifier verifierWithPublicKey:publicKey];
 
 	verifier.regName = regName;
 	verifier.regCode = regCode;
 	NSLog(@"publicKey %@ \n regCode: %@ regName: %@", publicKey, verifier.regCode, verifier.regName);
-	 
-	if ([verifier verify]) {
-
-		NSLog(@"Yes %@", verifier);
-		return YES;
-	}
+    
+    if ([verifier verify]) {
+        
+        NSLog(@"Yes %@", verifier);
+        return YES;
+    }
+#else
+    
+    CFobLicVerifier* verifier = [[CFobLicVerifier alloc]init];
+    
+    NSError* error = nil;
+    [verifier setPublicKey:publicKey error:&error];
+    (void)error;
+    
+    if ([verifier verifyRegCode:regCode forName:regName error:&error ])
+    {    
+        NSLog(@"Yes %@", verifier);
+        return YES;
+    }
+    
+#endif
+	
 		 
 	NSLog(@"No %@", verifier);
 	return NO;
