@@ -20,7 +20,7 @@
 		FAA003230FE8DAF400F179E4 /* NSString+PECrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003140FE8DAF400F179E4 /* NSString+PECrypt.m */; };
 		FAA003240FE8DAF400F179E4 /* NSString-Base64Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003160FE8DAF400F179E4 /* NSString-Base64Extensions.m */; };
 		FAA003260FE8DAF400F179E4 /* URLCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA003190FE8DAF400F179E4 /* URLCommand.m */; };
-		FAA0051D0FE8DD6500F179E4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA0051C0FE8DD6500F179E4 /* README.txt */; };
+		FAA0051D0FE8DD6500F179E4 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FAA0051C0FE8DD6500F179E4 /* README.markdown */; };
 		FAA0FBF60FE5193600F179E4 /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */; };
 		FAA0FC1B0FE5194A00F179E4 /* XMLicensingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FC060FE5194900F179E4 /* XMLicensingWindowController.m */; };
 		FAA0FC320FE5197000F179E4 /* MSZLinkedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA0FC310FE5197000F179E4 /* MSZLinkedView.m */; };
@@ -63,7 +63,7 @@
 		FAA003160FE8DAF400F179E4 /* NSString-Base64Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-Base64Extensions.m"; sourceTree = "<group>"; };
 		FAA003180FE8DAF400F179E4 /* URLCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCommand.h; sourceTree = "<group>"; };
 		FAA003190FE8DAF400F179E4 /* URLCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCommand.m; sourceTree = "<group>"; };
-		FAA0051C0FE8DD6500F179E4 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../CodexFab/CocoaFob/README.txt; sourceTree = SOURCE_ROOT; };
+		FAA0051C0FE8DD6500F179E4 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = ../CodexFab/CocoaFob/README.markdown; sourceTree = SOURCE_ROOT; };
 		FAA0FBF40FE5193600F179E4 /* XMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMAppDelegate.h; sourceTree = "<group>"; };
 		FAA0FBF50FE5193600F179E4 /* XMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMAppDelegate.m; sourceTree = "<group>"; };
 		FAA0FC050FE5194900F179E4 /* XMLicensingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLicensingWindowController.h; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		FAA003000FE8DAF400F179E4 /* CocoaFob */ = {
 			isa = PBXGroup;
 			children = (
-				FAA0051C0FE8DD6500F179E4 /* README.txt */,
+				FAA0051C0FE8DD6500F179E4 /* README.markdown */,
 				FAA003010FE8DAF400F179E4 /* CFobLicGenerator.h */,
 				FAA003020FE8DAF400F179E4 /* CFobLicGenerator.m */,
 				FAA003030FE8DAF400F179E4 /* CFobLicVerifier.h */,
@@ -262,9 +262,15 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LicenseExample" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* LicenseExample */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -287,7 +293,7 @@
 				FAA0FCC80FE5217200F179E4 /* MyApp.scriptTerminology in Resources */,
 				FAA0FE700FE672D400F179E4 /* CodexFabExample.icns in Resources */,
 				FAA0FEE50FE673E500F179E4 /* CodeFabExample_splash.png in Resources */,
-				FAA0051D0FE8DD6500F179E4 /* README.txt in Resources */,
+				FAA0051D0FE8DD6500F179E4 /* README.markdown in Resources */,
 				FA2443B90FF73699009C337B /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -355,6 +362,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = LicenseExample;
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
@@ -362,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -373,6 +382,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = LicenseExample;
+				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
