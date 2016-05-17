@@ -107,13 +107,18 @@
     if ([verifier verifyRegCode:regCode forName:regName error:&error ])
     {    
         NSLog(@"Yes %@", verifier);
+        [verifier release];
         return YES;
     }
     
 #endif
+    NSLog(@"No %@", verifier);
 	
-		 
-	NSLog(@"No %@", verifier);
+    if (verifier)
+    {
+        [verifier release];
+    }
+    
 	return NO;
 }
 	 
